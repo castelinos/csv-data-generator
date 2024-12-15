@@ -1,0 +1,22 @@
+{
+  "name": "csv-generator",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "objects-to-csv": "^1.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
